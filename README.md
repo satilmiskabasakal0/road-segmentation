@@ -46,7 +46,7 @@ This project uses the **KITTI Road Benchmark Dataset**.
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/road-segmentation-unet.git
+git clone https://github.com/satilmiskabasakal/road-segmentation-unet.git
 cd road-segmentation-unet
 ```
 ### 2. Install dependencies
