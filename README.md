@@ -47,10 +47,7 @@ This project uses the **KITTI Road Benchmark Dataset**.
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/satilmiskabasakal0/road-segmentation.git
-=======
-git clone https://github.com/satilmiskabasakal/road-segmentation-unet.git
->>>>>>> 32cba12189eab4f06796fe40a6ea06c7997a8dc2
-cd road-segmentation-unet
+cd road-segmentation
 ```
 ### 2. Install dependencies
 ```bash
@@ -64,7 +61,7 @@ python train.py
 ```bash
 tensorboard --logdir=runs
 ```
-Visualizes:
+### Visualizes:
 
 Training loss over epochs
 
