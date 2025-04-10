@@ -34,7 +34,11 @@ runs/
 # System files
 .DS_Store
 Thumbs.db
-
+# Test files
 test.py
 temp.py
+<<<<<<< HEAD
+=======
+
+>>>>>>> 32cba12189eab4f06796fe40a6ea06c7997a8dc2
 events.out.tfevents.1744295401.DESKTOP-ID9T9ID.5300.0
