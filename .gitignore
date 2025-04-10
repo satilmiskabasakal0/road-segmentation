@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook checkpoints (kullanmıyorsan bile eklemek iyidir)
+.ipynb_checkpoints/
+
+# Environment
+.venv/
+env/
+venv/
+*.env
+
+# Dataset
+data_road/
+*.zip
+*.tar.gz
+
+# Model files
+*.pth
+*.pt
+
+# TensorBoard logs
+runs/
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+test.py
+temp.py
+main.py
+events.out.tfevents.1744295401.DESKTOP-ID9T9ID.5300.0
