@@ -46,7 +46,7 @@ This project uses the **KITTI Road Benchmark Dataset**.
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/road-segmentation-unet.git
+git clone https://github.com/satilmiskabasakal0/road-segmentation.git
 cd road-segmentation-unet
 ```
 ### 2. Install dependencies
@@ -57,18 +57,6 @@ pip install -r requirements.txt
 ```bash
 python train.py
 ```
-
-### 4. Run prediction on a sample
-```bash
-python predict.py
-```
-
-### 📊 Evaluation Metrics
- IoU (Intersection over Union)
- Dice Score
-
-Used to measure segmentation accuracy on binary masks.
-
 ### 📈 TensorBoard
 ```bash
 tensorboard --logdir=runs
@@ -78,11 +66,32 @@ Visualizes:
 Training loss over epochs
 
 Predicted masks vs ground truth
+ 
 
+### 4. Run prediction on a sample
+```bash
+python predict.py
+```
+### 📊 Evaluation Metrics
+IoU (Intersection over Union)
+Dice Score
+
+Used to measure segmentation accuracy on binary masks.
 
 ### 🧪 Example Results
 <img src="examples/example_1.png">
 <img src="examples/example_3.png">
+
+
+### 5. Run Masking on a Video
+```bash
+python main.py
+```
+### Real Time Video Results
+<img src="examples/vid_example_1.png">
+
+<img src="examples/vid_example_2.png">
+<img src="examples/vid_example_3.png">
 
 ### 📁 Project Structure
 ```
@@ -99,6 +108,8 @@ road_segmentation_project/
 ├── dataset.py               # Custom dataset class
 ├── train.py                 # Training script
 ├── predict.py               # Inference and visualization
+├── main.py                  # Running Unet on a Real-Time Video
+├── sample-dash-cam.mp4      # A random dash cam video for testing from youtube
 ├── runs/                    # TensorBoard logs
 ├── requirements.txt
 └── README.md
